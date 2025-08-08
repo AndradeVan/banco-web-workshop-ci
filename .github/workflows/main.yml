@@ -12,7 +12,7 @@ jobs:
       PORT: 4000
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
 
       - name: Instalar as deps
         run: npm install
